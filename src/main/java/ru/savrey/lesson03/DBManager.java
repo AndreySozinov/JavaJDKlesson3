@@ -34,7 +34,7 @@ public class DBManager implements DataBaseWorker{
     @Override
     public String getEntry(int id) {
         if (id < database.length) {
-            return database[id]
+            return database[id];
         }
         return null;
     }
